@@ -1,8 +1,55 @@
 /* Use Boxicons for icons */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0dad7d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  height: 422px;
+  width: 440px;
+  background: whitesmoke;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.title {
+  height: 20%;
+  background: #2b957d;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper form{
+  margin: 20px 30px;
+}
+.wrapper form input{
+  height: 40px;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 38px;
+}
+.wrapper form i{
+  position: absolute;
+  font-size: 45px;
+  margin-top: 18px;
+  color: #2b957d;
+  margin-left: 4px;
+
 }
