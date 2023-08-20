@@ -1,6 +1,6 @@
 /* Use Boxicons for icons */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -33,23 +33,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.wrapper form{
+.wrapper form {
   margin: 20px 30px;
 }
-.wrapper form input{
+.wrapper form input {
   height: 40px;
   width: 80%;
   margin-top: 20px;
   margin-left: 38px;
 }
-.wrapper form i{
+.wrapper form i {
   position: absolute;
   font-size: 45px;
   margin-top: 18px;
-  color: #2b957d;
+  color: whitesmoke;
   margin-left: 4px;
-
+  background: #2b957d;
+  border-radius: 5px;
 }
